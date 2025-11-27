@@ -10,9 +10,10 @@ Our task focuses on handling image classification problems (SVHN, CIFAR10, CIFAR
 ├── ploter.py: The file for plotting the training curves.  
 ├── sgd_trainer.py: Training with SGD. You can run it directly.    
 
-You can using the following command line to run the project:
-`python Adam_based.py`  
-or with parameters, here is an example:  
-`python Adam_based.py --datasets cifar10 --models resnet`  
-`python nsgd_trainer.py`  
+To train the model with Adam and AdamW, you can use the following command line:                
+`python Adam_based.py`    
+or with parameters, here is an example:     
+`python Adam_based.py --datasets cifar10 --models resnet`   
+To train the model with noisy SGD and SGD, you can use the following command line:    
+`python nsgd_trainer.py`    
 `python sgd_trainer.py`  
